@@ -1,10 +1,10 @@
-<div align="center">
+<!-- <div align="center">
 
 <picture>
   <source media="(prefers-color-scheme: light)" srcset="assets/16.svg">
   <img alt="tiny corp logo" src="assets/nan.svg" width="50%" height="50%">
 </picture>
-</div>
+</div> -->
 
 # Welcome to MkDocs
 
