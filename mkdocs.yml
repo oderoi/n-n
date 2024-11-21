@@ -1,5 +1,10 @@
-site_name: My Docs
+site_name: nan
 
 theme:
   name: material
-  logo: assets/16.png
+  logo: assets/16.svg
+  favicon: assets/images/16.svg
+
+  icon:
+    previous: fontawesome/solid/angle-left
+    next: fontawesome/solid/angle-right

@@ -1,6 +1,13 @@
 <p align="center">
-  <img src="assets/16.svg" alt="My Logo" width="300">
+  <img src="assets/16.svg" alt="My Logo" width="%200" height="%200">
+
+ <h3>
+
+ [Progress and Roadmap](Progress_and_Roadmap.md) | [Documentation](documentation.md)
+ 
+ </h3>
 </p>
+
 
 # Welcome to MkDocs
 
