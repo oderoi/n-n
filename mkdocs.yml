@@ -1,4 +1,5 @@
 site_name: My Docs
 
 theme:
-  logo: assets/nan.png
+  name: material
+  logo: assets/16.png
