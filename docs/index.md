@@ -1,3 +1,11 @@
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="/assets/16.svg">
+  <img alt="tiny corp logo" src="/asses/nan.svg" width="50%" height="50%">
+</picture>
+</div>
+
 # Welcome to MkDocs
 
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).
