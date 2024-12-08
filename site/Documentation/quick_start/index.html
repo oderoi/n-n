@@ -11,16 +11,16 @@
       
       
       
-      <link rel="icon" href="/assets/16.svg">
+      <link rel="icon" href="../../assets/16.svg">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.47">
     
     
       
-        <title>nan</title>
+        <title>Quick start - nan</title>
       
     
     
-      <link rel="stylesheet" href="/assets/stylesheets/main.6f8fc17f.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.6f8fc17f.min.css">
       
       
 
@@ -39,7 +39,7 @@
       
     
     
-    <script>__md_scope=new URL("/",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -57,6 +57,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#quick-start-guide" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -69,9 +74,9 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="/." title="nan" class="md-header__button md-logo" aria-label="nan" data-md-component="logo">
+    <a href="../.." title="nan" class="md-header__button md-logo" aria-label="nan" data-md-component="logo">
       
-  <img src="/assets/16.svg" alt="logo">
+  <img src="../../assets/16.svg" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -88,7 +93,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              
+              Quick start
             
           </span>
         </div>
@@ -163,9 +168,9 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="/." title="nan" class="md-nav__button md-logo" aria-label="nan" data-md-component="logo">
+    <a href="../.." title="nan" class="md-nav__button md-logo" aria-label="nan" data-md-component="logo">
       
-  <img src="/assets/16.svg" alt="logo">
+  <img src="../../assets/16.svg" alt="logo">
 
     </a>
     nan
@@ -180,7 +185,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/." class="md-nav__link">
+      <a href="../.." class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -200,7 +205,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/Progress_and_Roadmap/" class="md-nav__link">
+      <a href="../../Progress_and_Roadmap/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -220,7 +225,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/Documentation/documentation/" class="md-nav__link">
+      <a href="../documentation/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -250,6 +255,25 @@
   
   
   
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#tensor" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tensor
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -261,8 +285,72 @@
             <div class="md-content" data-md-component="content">
               <article class="md-content__inner md-typeset">
                 
-  <h1>404 - Not found</h1>
+                  
 
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="/imgs/nan/16.svg">
+  <img alt="tiny corp logo" src="/imgs/nan/nan.svg" width="50%" height="50%">
+</picture>
+
+nano: Something between [PyTorch](https://github.com/pytorch/pytorch) , [karpathy/micrograd](https://github.com/karpathy/micrograd) and [XLA](https://openxla.org/xla). Maintained by [nano corp](https://github.com/oderoi/nanoTorch/tree/main).
+
+<h3>
+
+[Home Page](../README.md) | [Documentation](../Documentation/documentation.md)
+
+</h3>
+
+</div>
+
+<hr />
+<h1 id="quick-start-guide">Quick Start Guide</h1>
+<p>This guide assumes you have no prior knowledge of C, C++, PyTorch or any other language or deelearning framework.</p>
+<p>First you have to download nan library from GitHub.</p>
+<pre><code class="language-C">git clone https://github.com/oderoi/nanoTorch.git
+</code></pre>
+<p>Then create a working directory in your machine/Laptop folder, open <strong>nanoTorch</strong> and copy <code>torch.h</code> and pest it in your folder you created. Then create a <code>new_file</code> that you will use to code your project.</p>
+<p>Then open the <code>new_file</code> in your fevorite code editor. and start to code.</p>
+<p>Start by importing the library.</p>
+<pre><code class="language-c">#inlude &quot;torch.h&quot;
+</code></pre>
+<p>Now you are set.</p>
+<h2 id="tensor">Tensor</h2>
+<p>Tensors are the base data structure in <strong>nan</strong>. They are like multi-dimensional array of a specific data type. All higher-level operations in <strong>nan</strong> operate on these tensors.</p>
+<p>Tensor can be created from existing data.</p>
+<pre><code class="language-c">Tensor * t1 = tensor((float[]){1, 2, 3, 4, 5, 6}, FLOAT32, (int[]){2, 3}, 2, true);
+</code></pre>
+<p>So you might being asking yourself what the heck is that, don't sweet , let's see what the hell is that, and will start by looking one part after the other.</p>
+<ul>
+<li><code>Tensor * t1</code>: this is the variable definition where.<ul>
+<li><code>Tensor *</code>: telling our program that this is the <code>Tensor</code> type multidimensional array like.</li>
+<li><code>t1</code>: is the name of our data, you can choose to use any name you like.</li>
+</ul>
+</li>
+<li><code>tensor()</code>: is the function that helping us to hold together all the important information about out array, like data, data type,data dimension, data rank and requires grad.<ul>
+<li><code>(float[]){1, 2, 3, 4, 5, 6}</code>:this is the data itself that <code>Tensor * t1</code> carries and <code>(float[])</code> is the data type of the array, while <code>{1, 2, 3, 4, 5, 6}</code> is the arry itself.</li>
+<li><code>FLOAT32</code>: this is the Tensor data type, which is suppossed to be the same as <code>(float[])</code>.</li>
+<li><code>(int[]){2, 3}</code>: is the array dimension. As well here <code>(int[])</code> is the data type of the dimension array ( and Yes, I just say array again, because array data and dimension are both representade using array) and <code>{2, 3}</code> is the dimension itself.</li>
+<li><code>2</code>: this number represent rank of our Tensor, simply put, if dimesion is of two dimensions like <code>{2, 3}</code> then rank will be 2 aswell and if dimension if just one dimension like <code>{3}</code> then the rank will be <code>1</code>.</li>
+<li><code>true</code>: this boolean tell us that this <code>Tensor</code> will carry gradients of it's variable, during back propagation. So it might be <code>true</code> or <code>false</code>, depending on weither you want to calculate gradiant correspond of the <code>Tensor</code>.</li>
+</ul>
+</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
               </article>
             </div>
           
@@ -296,10 +384,10 @@
     </div>
     
     
-    <script id="__config" type="application/json">{"base": "/", "features": [], "search": "/assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="/assets/javascripts/bundle.83f73b43.min.js"></script>
+      <script src="../../assets/javascripts/bundle.83f73b43.min.js"></script>
       
     
   </body>

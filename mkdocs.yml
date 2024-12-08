@@ -1,10 +1,23 @@
 site_name: nan
 
+nav:
+  - Home: index.md
+  - Progress_and_Roadmap: Progress_and_Roadmap.md
+  - Documentation: Documentation/documentation.md
+  - Quick Start: Documentation/quick_start.md
+
 theme:
-  name: material
+  name: 'material'
   logo: assets/16.svg
-  favicon: assets/images/16.svg
+  favicon: assets/16.svg
 
   icon:
     previous: fontawesome/solid/angle-left
     next: fontawesome/solid/angle-right
+
+markdown_extensions:
+  - md_in_html
+  - pymdownx.arithmatex
+
+extra_javascript:
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js

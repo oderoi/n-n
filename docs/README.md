@@ -3,23 +3,23 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: light)" srcset="assets/nan.svg">
-  <img alt="nan corp logo" src="assets/16.svg" width="100%" height="100%">
+  <source media="(prefers-color-scheme: light)" srcset="/imgs/nan/16.svg">
+  <img alt="tiny corp logo" src="/imgs/nan/nan.svg" width="50%" height="50%">
 </picture>
 
+nano: Something between [tinygrad](https://tinygrad.org/), [PyTorch](https://github.com/pytorch/pytorch) , [karpathy/micrograd](https://github.com/karpathy/micrograd) and [XLA](https://openxla.org/xla). Maintained by [nano corp](https://github.com/oderoi/nanoTorch/tree/main).
+
+<h3>
+
+[Progress and Roadmap](Progress_and_Roadmap.md) | [Documentation](Documentation/documentation.md)
+
+</h3>
+
+<!-- [![GitHub Repo stars](https://img.shields.io/github/stars/tinygrad/tinygrad)](https://github.com/tinygrad/tinygrad/stargazers)
+[![Unit Tests](https://github.com/tinygrad/tinygrad/actions/workflows/test.yml/badge.svg)](https://github.com/tinygrad/tinygrad/actions/workflows/test.yml)
+[![Discord](https://img.shields.io/discord/1068976834382925865)](https://discord.gg/ZjZadyC7PK) -->
+
 </div>
-
-**nan**: Something between [tinygrad](https://tinygrad.org/), [PyTorch](https://github.com/pytorch/pytorch), [karpathy/micrograd](https://github.com/karpathy/micrograd), [Aten](https://gitlab.epfl.ch/hugon/pytorch/-/tree/master/aten/src) and [XLA](https://openxla.org/xla). Maintained by [nano corp](https://github.com/oderoi/nanoTorch/tree/main).
-
-### [**Progress and Roadmap**](Progress_and_Roadmap.md) | [**Documentation**](./Documentation/documentation.md)
-
-
-[![GitHub Repo stars](https://img.shields.io/github/stars/oderoi/nanoTorch)](https://github.com/oderoi/nanoTorch/stargazers)
-<!-- [![Fork Repo](https://img.shields.io/greasyfork/l/oderoi/nanoTorch)](https://github.com/oderoi/nanoTorch/fork) -->
-
-<!-- [![Unit Tests](https://github.com/oderoi/nanoTorch/actions/workflows/test.yml/badge.svg)](https://github.com/oderoi/nanoTorch/actions/workflows/test.yml) -->
-<!-- [![Discord](https://img.shields.io/discord/1068976834382925865)](https://discord.gg/ZjZadyC7PK) -->
-
 
 ---
 
