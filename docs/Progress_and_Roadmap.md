@@ -74,7 +74,7 @@ Nano is designed to provide an accessible, low-level deep learning framework wit
 | Transpose          | $(\mathbf{A}^\top){i,j} = (\mathbf{A}){j,i}$                              |   ✅   |
 | Flatten            | $\text{Flatten}(A_{m,n}) = \[A_{0,0},\  A_{0,1}, \dots\,\  A_{m-1, n-1}]$ |   ✅   |
 | Reshape            | $\text{Reshape}(A_{m,n}) = A_{n,m}$                                       |   ✅   |
-| Identity matrix (eye)            | $\text{The Identity matrix }{ I_n }\text{ of size }{ n} { x } { n }\text{ is defined as:} \ \ {I_{ij}} = \bigg( \frac{1 \text{ if } i = j}{0 \text{ if } i\ne j}$                                       |   ✅   |
+| Identity matrix (eye)            | $\text{The Identity matrix }{I_n}\text{of size}{n} {x} {n}\text{is defined as:} \ \ {I_{ij}} = \bigg( \frac{1 \text{if} i = j}{0 \text{if} i\ne j}$                                       |   ✅   |
 
 
 Where:
@@ -148,7 +148,7 @@ i.	Activations
 
 | Task      |            Formular               | Status |
 |-----------|-----------------------------------|--------|
-| ReLU      | $\text{ReLU({x})} = \bigg(\frac{{x}\ \text{ if } {x}  \geq\ 0} {0  \text{ if } {x} < 0}$ |   ✅   |
+| ReLU      | $\text{ReLU({x})} = \bigg(\frac{ {x}\ \text{if} {x}  \geq\ 0} {0  \text{if} {x} < 0}$ |   ✅   |
 | sigmoid   |  $\sigma(x) = \frac{1}{1 + e^{-x}}$   |   ✅   |
 | tanh      |  $\text{tanh}(x) = \frac{1 - e^{-2x}}{1 + e^{-2x}}$  |   ✅   |
 | softmax   |  $\text{Sofmax}{(x_i)} = \frac{e^{x_i - \text{max(x)}}}{\sum_{j}{e^{x_j - \text{max(x)}}}}$  |   ✅   |
