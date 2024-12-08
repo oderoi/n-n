@@ -152,7 +152,7 @@ i.	Activations
 | sigmoid   |  $\sigma(x) = \frac{1}{1 + e^{-x}}$   |   ✅   |
 | tanh      |  $\text{tanh}(x) = \frac{1 - e^{-2x}}{1 + e^{-2x}}$  |   ✅   |
 | softmax   |  $\text{Sofmax}{(x_i)} = \frac{e^{x_i - \text{max(x)}}}{\sum_{j}{e^{x_j - \text{max(x)}}}}$  |   ✅   |
-| LeakyReLU| $\text{LeakyReLU({x})} = \bigg( \frac{{x }\ \text{ if } {x }  \geq\ 0} {\alpha {x}  \text{ if } {x } < 0}$                                   |   ✅   |
+| LeakyReLU| $\text{LeakyReLU({x})} = \bigg( \frac{ {x }\ \text{ if } {x }  \geq\ 0} {\alpha {x}  \text{ if } {x } < 0}$                                   |   ✅   |
 | mean      |  $\mu = \frac{1}{n} \sum_{i=1}^n x_i$ |   ✅   |
 
 - Note: Softmax Numerical Stability
@@ -163,11 +163,11 @@ ii.	Activations Derivative
 
 | Task      |            Formular               | Status |
 |-----------|-----------------------------------|--------|
-| ReLU_backward      | $\frac{\partial}{\partial{x}} = \bigg( \frac{{1 }\ \text{ if } {x }  \geq\ 0} {0  \text{ if } {x } \le 0}$ |   ✅   |
+| ReLU_backward      | $\frac{\partial}{\partial{x}} = \bigg( \frac{ {1 }\ \text{ if } {x }  \geq\ 0} {0  \text{ if } {x } \le 0}$ |   ✅   |
 | sigmoid_backward   |  $\sigma{\prime}(x) = \sigma(x)(1 - \sigma(x))$   |   ✅   |
 | tanh_backward      |  $\text{tanh}{\prime}(x) = 1 - \text{tanh}^2(x)$   |   ✅   |
 | softmax_backward   |  $\frac{\partial}{\partial{x_k}} = \text{Softmax}{(x_k)}(1 - \text{Softmax}{(x_k)})_{(diagonal: )} cross-element\ requires\ Jacobian$  |   ❌   |
-| LeakyReLU_backward| $\frac{\partial}{\partial{x}} = \bigg( \frac{{1 }\ \text{ if } {x }  \geq\ 0} {\alpha  \text{ if } {x } \le 0}$                                   |   ✅   |
+| LeakyReLU_backward| $\frac{\partial}{\partial{x}} = \bigg( \frac{ {1 }\ \text{ if } {x }  \geq\ 0} {\alpha  \text{ if } {x } \le 0}$                                   |   ✅   |
 | mean_backward      |  $\frac{\partial{\mu}}{\partial{x_i}} = \frac{1}{n}$ |   ✅   |
 
 - Note: Derivative of Softmat.
