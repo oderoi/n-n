@@ -3,8 +3,8 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: light)" srcset="/assets/nan.svg">
-  <img alt="nan corp logo" src="./assets/16.svg" width="100%" height="100%">
+  <source media="(prefers-color-scheme: light)" srcset="assets/nan.svg">
+  <img alt="nan corp logo" src="assets/16.svg" width="100%" height="100%">
 </picture>
 
 </div>
