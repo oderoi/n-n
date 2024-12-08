@@ -60,4 +60,4 @@ TinyGrad|	Python|	Numpy/Custom Ops|	CPU SIMD, CUDA for GPU|
 * **nan** Assembly/Hardware Layer only supports **CPU** for now.
 
 
-### [**Quick Start**](quick_start.md)
+<!-- ### [**Quick Start**](quick_start.md) -->
