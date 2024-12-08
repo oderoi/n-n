@@ -1,10 +1,10 @@
-<!-- <h1 align='center'><b>nano</b></h1>
+<h1 align='center'><b>nano</b></h1>
 
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: light)" srcset="/assets/nan.svg">
-  <img alt="nan corp logo" src="/assets/16.svg" width="100%" height="100%">
+  <source media="(prefers-color-scheme: light)" srcset="../assets/nan.svg">
+  <img alt="nan corp logo" src="../assets/16.svg" width="100%" height="100%">
 </picture>
 
 </div>
@@ -62,4 +62,4 @@ So you might being asking yourself what the heck is that, don't sweet , let's se
     * `FLOAT32`: this is the Tensor data type, which is suppossed to be the same as `(float[])`.
     * `(int[]){2, 3}`: is the array dimension. As well here `(int[])` is the data type of the dimension array ( and Yes, I just say array again, because array data and dimension are both representade using array) and `{2, 3}` is the dimension itself.
     * `2`: this number represent rank of our Tensor, simply put, if dimesion is of two dimensions like `{2, 3}` then rank will be 2 aswell and if dimension if just one dimension like `{3}` then the rank will be `1`.
-    * `true`: this boolean tell us that this `Tensor` will carry gradients of it's variable, during back propagation. So it might be `true` or `false`, depending on weither you want to calculate gradiant correspond of the `Tensor`. -->
+    * `true`: this boolean tell us that this `Tensor` will carry gradients of it's variable, during back propagation. So it might be `true` or `false`, depending on weither you want to calculate gradiant correspond of the `Tensor`.

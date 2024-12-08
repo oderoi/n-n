@@ -3,8 +3,8 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: light)" srcset="assets/nan.svg">
-  <img alt="nan corp logo" src="assets/16.svg" width="100%" height="100%">
+  <source media="(prefers-color-scheme: light)" srcset="../assets/nan.svg">
+  <img alt="nan corp logo" src="../assets/16.svg" width="100%" height="100%">
 </picture>
 
 </div>
@@ -60,4 +60,4 @@ TinyGrad|	Python|	Numpy/Custom Ops|	CPU SIMD, CUDA for GPU|
 * **nan** Assembly/Hardware Layer only supports **CPU** for now.
 
 
-<!-- ### [**Quick Start**](quick_start.md) -->
+### [**Quick Start**](quick_start.md)
