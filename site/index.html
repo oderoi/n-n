@@ -6,7 +6,26 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
+      <!-- For GitHub static sites (like GitHub Pages), rendering LaTeX equations requires a bit of configuration. Here are several methods to enable LaTeX equation rendering: -->
+       <!-- MathJax Method (Recommended):
+            Add the following script to your HTML layout or in the <head> section of your pages: -->
       
+      <script type="text/javascript" async
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
+      </script>
+
+      <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+          tex2jax: {
+            inlineMath: [['$', '$'], ['\\(', '\\)']],
+            displayMath: [['$$', '$$'], ['\\[', '\\]']],
+            processEscapes: true,
+            processEnvironments: true,
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre','code'],
+            TeX: { equationNumbers: { autoNumber: "AMS" } }
+          }
+        });
+      </script>
       
       
       
