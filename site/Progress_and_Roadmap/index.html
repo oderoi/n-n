@@ -43,6 +43,8 @@
       
     
     
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex.css">
+    
     <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -62,7 +64,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#progress-and-roadmap-documentation" class="md-skip">
+        <a href="#home-page-documentation" class="md-skip">
           Skip to content
         </a>
       
@@ -251,9 +253,9 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#progress-and-roadmap-documentation" class="md-nav__link">
+  <a href="#home-page-documentation" class="md-nav__link">
     <span class="md-ellipsis">
-      Progress and Roadmap | Documentation
+      Home Page | Documentation
     </span>
   </a>
   
@@ -338,6 +340,26 @@
   
 
     
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Documentation/quick_start/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Quick Start
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
   </ul>
 </nav>
                   </div>
@@ -363,9 +385,9 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#progress-and-roadmap-documentation" class="md-nav__link">
+  <a href="#home-page-documentation" class="md-nav__link">
     <span class="md-ellipsis">
-      Progress and Roadmap | Documentation
+      Home Page | Documentation
     </span>
   </a>
   
@@ -449,13 +471,8 @@
 </div>
 
 <p><strong>nan</strong>: Something between <a href="https://tinygrad.org/">tinygrad</a>, <a href="https://github.com/pytorch/pytorch">PyTorch</a>, <a href="https://github.com/karpathy/micrograd">karpathy/micrograd</a>, <a href="https://gitlab.epfl.ch/hugon/pytorch/-/tree/master/aten/src">Aten</a> and <a href="https://openxla.org/xla">XLA</a>. Maintained by <a href="https://github.com/oderoi/nanoTorch/tree/main">nano corp</a>.</p>
-<h3 id="progress-and-roadmap-documentation"><a href="./"><strong>Progress and Roadmap</strong></a> | <a href="/docs/Documentation/documentation.md"><strong>Documentation</strong></a></h3>
+<h3 id="home-page-documentation"><a href="../"><strong>Home Page</strong></a> | <a href="../Documentation/documentation/"><strong>Documentation</strong></a></h3>
 <p><a href="https://github.com/oderoi/nanoTorch/stargazers"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/oderoi/nanoTorch" /></a></p>
-<!-- [![Fork Repo](https://img.shields.io/greasyfork/l/oderoi/nanoTorch)](https://github.com/oderoi/nanoTorch/fork) -->
-
-<!-- [![Unit Tests](https://github.com/oderoi/nanoTorch/actions/workflows/test.yml/badge.svg)](https://github.com/oderoi/nanoTorch/actions/workflows/test.yml) -->
-<!-- [![Discord](https://img.shields.io/discord/1068976834382925865)](https://discord.gg/ZjZadyC7PK) -->
-
 <hr />
 <h1 align='center'><b>Progress and Roadmap</b></h1>
 
@@ -518,74 +535,79 @@
 <tbody>
 <tr>
 <td>Addition</td>
-<td>$C_{i,j} = A_{i,j} + B_{i,j}$</td>
+<td><span class="arithmatex">\(C_{i,j} = A_{i,j} + B_{i,j}\)</span></td>
 <td>✅</td>
 </tr>
 <tr>
 <td>Subtraction</td>
-<td>$C_{i,j} = A_{i,j} - B_{i,j}$</td>
+<td><span class="arithmatex">\(C_{i,j} = A_{i,j} - B_{i,j}\)</span></td>
 <td>✅</td>
 </tr>
 <tr>
 <td>Maltiplication</td>
-<td>$C_{i,j} = A_{i,j} * B_{i,j}$</td>
+<td><span class="arithmatex">\(C_{i,j} = A_{i,j} * B_{i,j}\)</span></td>
 <td>✅</td>
 </tr>
 <tr>
 <td>Division</td>
-<td>$C_{i,j} = A_{i,j} / B_{i,j}$</td>
+<td><span class="arithmatex">\(C_{i,j} = A_{i,j} / B_{i,j}\)</span></td>
 <td>✅</td>
 </tr>
 <tr>
 <td>Dot_Product</td>
-<td>$C_{i,j} = \sum_{k=0}^{k-1}(A_{i,k} \cdot B_{k,j})$</td>
+<td><span class="arithmatex">\(<span class="arithmatex">\(C_{i,j} = \sum_{k=0}^{k-1} \left(A_{i,k} \cdot B_{k,j}\right)\)</span>\)</span></td>
+<td></td>
+</tr>
+<tr>
 <td>✅</td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>Exponent</td>
-<td>$C_{i,j} = e^{x_{i,j}}$</td>
+<td><span class="arithmatex">\(C_{i,j} = e^{x_{i,j}}\)</span></td>
 <td>✅</td>
 </tr>
 <tr>
 <td>Logarithm</td>
-<td>$C_{i,j} = \log_{10}(X_{i,j})$</td>
+<td><span class="arithmatex">\(C_{i,j} = \log_{10}(X_{i,j})\)</span></td>
 <td>❌</td>
 </tr>
 <tr>
 <td>Power</td>
-<td>$C_{i,j} = (\mathbf{A}^p){i,j} = (\mathbf{A}{i,j})^n$</td>
+<td><span class="arithmatex">\(C_{i,j} = (\mathbf{A}^p){i,j} = (\mathbf{A}{i,j})^n\)</span></td>
 <td>✅</td>
 </tr>
 <tr>
 <td>Sum</td>
-<td>$\mathbf{C}   = \sum_{i=0}^{i-1}(X_{i})$</td>
+<td><span class="arithmatex">\(\mathbf{C}   = \sum_{i=0}^{i-1}\(X_{i}\)\)</span></td>
 <td>✅</td>
 </tr>
 <tr>
 <td>Transpose</td>
-<td>$(\mathbf{A}^\top){i,j} = (\mathbf{A}){j,i}$</td>
+<td><span class="arithmatex">\((\mathbf{A}^\top){i,j} = (\mathbf{A}){j,i}\)</span></td>
 <td>✅</td>
 </tr>
 <tr>
 <td>Flatten</td>
-<td>$\text{Flatten}(A_{m,n}) = [A_{0,0},\  A_{0,1}, \dots\,\  A_{m-1, n-1}]$</td>
+<td><span class="arithmatex">\(\text{Flatten}(A_{m,n}) = \[A_{0,0},\  A_{0,1}, \dots\,\  A_{m-1, n-1}]\)</span></td>
 <td>✅</td>
 </tr>
 <tr>
 <td>Reshape</td>
-<td>$\text{Reshape}(A_{m,n}) = A_{n,m}$</td>
+<td><span class="arithmatex">\(\text{Reshape}(A_{m,n}) = A_{n,m}\)</span></td>
 <td>✅</td>
 </tr>
 <tr>
 <td>Identity matrix (eye)</td>
-<td>$\text{The Identity matrix }{ I_n }\text{ of size }{ n} { x } { n }\text{ is defined as:} \ \ {I_{ij}} = \bigg( \frac{1 \text{ if } i = j}{0 \text{ if } i\ne j}$</td>
+<td><span class="arithmatex">\(\text{The Identity matrix }{I_n}\text{of size}{n} {x} {n}\text{is defined as:} \ \ {I_{ij}} = \bigg( \frac{1 \text{if} i = j}{0 \text{if} i\ne j}\)</span></td>
 <td>✅</td>
 </tr>
 </tbody>
 </table>
 <p>Where:
-- $(A_{ij})$, $(B_{ij})$, and $(C_{ij})$ represent elements at the $(i)-th$ row and $(j)-th$ column of matrices $(A)$, $(B)$, and $(C)$, respectively.
-- The matrices $(A)$ and $(B)$ must have the same dimensions for addition to be valid.</p>
+- <span class="arithmatex">\(\(A_{ij}\)\)</span>, <span class="arithmatex">\(\(B_{ij}\)\)</span>, and <span class="arithmatex">\(\(C_{ij}\)\)</span> represent elements at the <span class="arithmatex">\(\(i\)-th\)</span> row and <span class="arithmatex">\(\(j\)-th\)</span> column of matrices <span class="arithmatex">\(\(A\)\)</span>, <span class="arithmatex">\(\(B\)\)</span>, and <span class="arithmatex">\(\(C\)\)</span>, respectively.
+- The matrices <span class="arithmatex">\(\(A\)\)</span> and <span class="arithmatex">\(\(B\)\)</span> must have the same dimensions for addition to be valid.</p>
 <ul>
 <li>Operation Derivative</li>
 </ul>
@@ -600,47 +622,47 @@
 <tbody>
 <tr>
 <td>Addition_backward</td>
-<td>$\frac{\partial C}{\partial A} = I, \quad \frac{\partial C}{\partial B} = I$</td>
+<td><span class="arithmatex">\(\frac{\partial C}{\partial A} = I, \quad \frac{\partial C}{\partial B} = I\)</span></td>
 <td>✅</td>
 </tr>
 <tr>
 <td>Subtraction_backward</td>
-<td>$\frac{\partial C}{\partial A} = I, \quad \frac{\partial C}{\partial B} = -I$</td>
+<td><span class="arithmatex">\(\frac{\partial C}{\partial A} = I, \quad \frac{\partial C}{\partial B} = -I\)</span></td>
 <td>✅</td>
 </tr>
 <tr>
 <td>Maltiplication_backward</td>
-<td>$\frac{\partial C}{\partial A} = B, \quad \frac{\partial C}{\partial B} = A$</td>
+<td><span class="arithmatex">\(\frac{\partial C}{\partial A} = B, \quad \frac{\partial C}{\partial B} = A\)</span></td>
 <td>✅</td>
 </tr>
 <tr>
 <td>Division_backward</td>
-<td>$\frac{\partial C}{\partial A} = B, \quad \frac{\partial C}{\partial B} = A$</td>
+<td><span class="arithmatex">\(\frac{\partial C}{\partial A} = B, \quad \frac{\partial C}{\partial B} = A\)</span></td>
 <td>✅</td>
 </tr>
 <tr>
 <td>Dot_Product_backward</td>
-<td>$\frac{\partial C}{\partial A} = I, \quad \frac{\partial C}{\partial B} = I$</td>
+<td><span class="arithmatex">\(\frac{\partial C}{\partial A} = I, \quad \frac{\partial C}{\partial B} = I\)</span></td>
 <td>✅</td>
 </tr>
 <tr>
 <td>Exponent_backward</td>
-<td>$\frac{\partial C}{\partial X} = e^{x_{i,j}}$</td>
+<td><span class="arithmatex">\(\frac{\partial C}{\partial X} = e^{x_{i,j}}\)</span></td>
 <td>✅</td>
 </tr>
 <tr>
 <td>Logarithm_backward</td>
-<td>$\frac{\partial C}{\partial X} = \frac{1}{X}$</td>
+<td><span class="arithmatex">\(\frac{\partial C}{\partial X} = \frac{1}{X}\)</span></td>
 <td>❌</td>
 </tr>
 <tr>
 <td>Power_backward</td>
-<td>$\frac{\partial C}{\partial A} = B \cdot A^{n-1}$</td>
+<td><span class="arithmatex">\(\frac{\partial C}{\partial A} = B \cdot A^{n-1}\)</span></td>
 <td>✅</td>
 </tr>
 <tr>
 <td>Sum_backward</td>
-<td>$\frac{\partial C}{\partial X_i} = 1\ \  \text{for each}\ \  {i}$</td>
+<td><span class="arithmatex">\(\frac{\partial C}{\partial X_i} = 1\ \  \text{for each}\ \  {i}\)</span></td>
 <td>✅</td>
 </tr>
 <tr>
@@ -782,39 +804,39 @@
 <tbody>
 <tr>
 <td>ReLU</td>
-<td>$\text{ReLU({x})} = \bigg( \frac{{x }\ \text{ if } {x }  \geq\ 0} {0  \text{ if } {x } &lt; 0}$</td>
+<td><span class="arithmatex">\(\text{ReLU({x})} = \bigg(\frac{ {x}\ \text{if} {x}  \geq\ 0} {0  \text{if} {x} &lt; 0}\)</span></td>
 <td>✅</td>
 </tr>
 <tr>
 <td>sigmoid</td>
-<td>$\sigma(x) = \frac{1}{1 + e^{-x}}$</td>
+<td><span class="arithmatex">\(\sigma(x) = \frac{1}{1 + e^{-x}}\)</span></td>
 <td>✅</td>
 </tr>
 <tr>
 <td>tanh</td>
-<td>$\text{tanh}(x) = \frac{1 - e^{-2x}}{1 + e^{-2x}}$</td>
+<td><span class="arithmatex">\(\text{tanh}(x) = \frac{1 - e^{-2x}}{1 + e^{-2x}}\)</span></td>
 <td>✅</td>
 </tr>
 <tr>
 <td>softmax</td>
-<td>$\text{Sofmax}{(x_i)} = \frac{e^{x_i - \text{max(x)}}}{\sum_{j}{e^{x_j - \text{max(x)}}}}$</td>
+<td><span class="arithmatex">\(\text{Sofmax}{(x_i)} = \frac{e^{x_i - \text{max(x)}}}{\sum_{j}{e^{x_j - \text{max(x)}}}}\)</span></td>
 <td>✅</td>
 </tr>
 <tr>
 <td>LeakyReLU</td>
-<td>$\text{LeakyReLU({x})} = \bigg( \frac{{x }\ \text{ if } {x }  \geq\ 0} {\alpha {x}  \text{ if } {x } &lt; 0}$</td>
+<td><span class="arithmatex">\(\text{LeakyReLU({x})} = \bigg( \frac{ {x }\ \text{ if } {x }  \geq\ 0} {\alpha {x}  \text{ if } {x } &lt; 0}\)</span></td>
 <td>✅</td>
 </tr>
 <tr>
 <td>mean</td>
-<td>$\mu = \frac{1}{n} \sum_{i=1}^n x_i$</td>
+<td><span class="arithmatex">\(\mu = \frac{1}{n} \sum_{i=1}^n x_i\)</span></td>
 <td>✅</td>
 </tr>
 </tbody>
 </table>
 <ul>
 <li>Note: Softmax Numerical Stability<ul>
-<li>When  x  has large values,  $e^{x_i}$  may overflow. For numerical stability, PyTorch internally subtracts the maximum value from  $x$  before applying the softmax:</li>
+<li>When  x  has large values,  <span class="arithmatex">\(e^{x_i}\)</span>  may overflow. For numerical stability, PyTorch internally subtracts the maximum value from  <span class="arithmatex">\(x\)</span>  before applying the softmax:</li>
 </ul>
 </li>
 </ul>
@@ -830,64 +852,64 @@
 <tbody>
 <tr>
 <td>ReLU_backward</td>
-<td>$\frac{\partial}{\partial{x}} = \bigg( \frac{{1 }\ \text{ if } {x }  \geq\ 0} {0  \text{ if } {x } \le 0}$</td>
+<td><span class="arithmatex">\(\frac{\partial}{\partial{x}} = \bigg( \frac{ {1 }\ \text{ if } {x }  \geq\ 0} {0  \text{ if } {x } \le 0}\)</span></td>
 <td>✅</td>
 </tr>
 <tr>
 <td>sigmoid_backward</td>
-<td>$\sigma{\prime}(x) = \sigma(x)(1 - \sigma(x))$</td>
+<td><span class="arithmatex">\(\sigma{\prime}(x) = \sigma(x)(1 - \sigma(x))\)</span></td>
 <td>✅</td>
 </tr>
 <tr>
 <td>tanh_backward</td>
-<td>$\text{tanh}{\prime}(x) = 1 - \text{tanh}^2(x)$</td>
+<td><span class="arithmatex">\(\text{tanh}{\prime}(x) = 1 - \text{tanh}^2(x)\)</span></td>
 <td>✅</td>
 </tr>
 <tr>
 <td>softmax_backward</td>
-<td>$\frac{\partial}{\partial{x_k}} = \text{Softmax}{(x_k)}(1 - \text{Softmax}{(x_k)})_{(diagonal: )} cross-element\ requires\ Jacobian$</td>
+<td><span class="arithmatex">\(\frac{\partial}{\partial{x_k}} = \text{Softmax}{(x_k)}(1 - \text{Softmax}{(x_k)})_{(diagonal: )} cross-element\ requires\ Jacobian\)</span></td>
 <td>❌</td>
 </tr>
 <tr>
 <td>LeakyReLU_backward</td>
-<td>$\frac{\partial}{\partial{x}} = \bigg( \frac{{1 }\ \text{ if } {x }  \geq\ 0} {\alpha  \text{ if } {x } \le 0}$</td>
+<td><span class="arithmatex">\(\frac{\partial}{\partial{x}} = \bigg( \frac{ {1 }\ \text{ if } {x }  \geq\ 0} {\alpha  \text{ if } {x } \le 0}\)</span></td>
 <td>✅</td>
 </tr>
 <tr>
 <td>mean_backward</td>
-<td>$\frac{\partial{\mu}}{\partial{x_i}} = \frac{1}{n}$</td>
+<td><span class="arithmatex">\(\frac{\partial{\mu}}{\partial{x_i}} = \frac{1}{n}\)</span></td>
 <td>✅</td>
 </tr>
 </tbody>
 </table>
 <ul>
 <li>Note: Derivative of Softmat.<ul>
-<li>The derivative depends on whether you’re computing it for the same index $( i = j )$ or different indices $( i \neq j )$.</li>
-<li>For a vector  $\mathbf{s} = \text{Softmax}(\mathbf{x})$ , the derivative is a matrix (Jacobian) given by:</li>
-<li>When  $i = j$ : The derivative is  $s_i (1 - s_i)$ , representing the change in  $s_i$  with respect to  $x_i$ .</li>
-<li>When  $i \neq j$ : The derivative is  $-s_i s_j$ , showing the interaction between different outputs of the softmax.</li>
+<li>The derivative depends on whether you’re computing it for the same index <span class="arithmatex">\(( i = j )\)</span> or different indices <span class="arithmatex">\(( i \neq j )\)</span>.</li>
+<li>For a vector  <span class="arithmatex">\(\mathbf{s} = \text{Softmax}(\mathbf{x})\)</span> , the derivative is a matrix (Jacobian) given by:</li>
+<li>When  <span class="arithmatex">\(i = j\)</span> : The derivative is  <span class="arithmatex">\(s_i (1 - s_i)\)</span> , representing the change in  <span class="arithmatex">\(s_i\)</span>  with respect to  <span class="arithmatex">\(x_i\)</span> .</li>
+<li>When  <span class="arithmatex">\(i \neq j\)</span> : The derivative is  <span class="arithmatex">\(-s_i s_j\)</span> , showing the interaction between different outputs of the softmax.</li>
 </ul>
 </li>
 </ul>
-<p>$$\frac{\partial s_i}{\partial x_j} =
+<div class="arithmatex">\[\frac{\partial s_i}{\partial x_j} =
 \begin{cases}
-s_i (1 - s_i), &amp; \text{if } i = j \
+s_i (1 - s_i), &amp; \text{if } i = j \\
 -s_i s_j, &amp; \text{if } i \neq j
-\end{cases}$$</p>
+\end{cases}\]</div>
 <ul>
 <li>Matrix Form of the Derivative (Jacobian).<ul>
 <li>The derivative can be represented as a Jacobian matrix for the softmax vector:</li>
 </ul>
 </li>
 </ul>
-<p>$$\mathbf{J}(\mathbf{s}) = \text{diag}(\mathbf{s}) - \mathbf{s} \mathbf{s}^T$$</p>
+<div class="arithmatex">\[\mathbf{J}(\mathbf{s}) = \text{diag}(\mathbf{s}) - \mathbf{s} \mathbf{s}^T\]</div>
 <ul>
 <li>
 <p>Where:</p>
 <ul>
-<li>$\text{diag}(\mathbf{s})$ : Diagonal matrix with  $s_i$  on the diagonal.</li>
+<li><span class="arithmatex">\(\text{diag}(\mathbf{s})\)</span> : Diagonal matrix with  <span class="arithmatex">\(s_i\)</span>  on the diagonal.</li>
 <li>
-<p>$\mathbf{s} \mathbf{s}^T$ : Outer product of  $\mathbf{s}$  with itself.</p>
+<p><span class="arithmatex">\(\mathbf{s} \mathbf{s}^T\)</span> : Outer product of  <span class="arithmatex">\(\mathbf{s}\)</span>  with itself.</p>
 </li>
 <li>
 <p>Explicitly:</p>
@@ -895,13 +917,13 @@ s_i (1 - s_i), &amp; \text{if } i = j \
 </ul>
 </li>
 </ul>
-<p>$$\mathbf{J}(\mathbf{s}) =
+<div class="arithmatex">\[\mathbf{J}(\mathbf{s}) =
 \begin{bmatrix}
-s_1 (1 - s_1) &amp; -s_1 s_2 &amp; \cdots &amp; -s_1 s_n \
--s_2 s_1 &amp; s_2 (1 - s_2) &amp; \cdots &amp; -s_2 s_n \
-\vdots &amp; \vdots &amp; \ddots &amp; \vdots \
+s_1 (1 - s_1) &amp; -s_1 s_2 &amp; \cdots &amp; -s_1 s_n \\
+-s_2 s_1 &amp; s_2 (1 - s_2) &amp; \cdots &amp; -s_2 s_n \\
+\vdots &amp; \vdots &amp; \ddots &amp; \vdots \\
 -s_n s_1 &amp; -s_n s_2 &amp; \cdots &amp; s_n (1 - s_n)
-\end{bmatrix}$$</p>
+\end{bmatrix}\]</div>
 <ul>
 <li>Loss Functions: Basic loss functions like Mean Squared Error and Cross-Entropy to train simple models.</li>
 </ul>
@@ -932,7 +954,7 @@ s_1 (1 - s_1) &amp; -s_1 s_2 &amp; \cdots &amp; -s_1 s_n \
 <td>Regression with noisy data</td>
 <td>Less sensitive to outliers</td>
 <td>Less smooth gradient</td>
-<td>❌</td>
+<td>✅</td>
 </tr>
 <tr>
 <td><strong>Cross-Entropy</strong></td>
@@ -955,7 +977,7 @@ s_1 (1 - s_1) &amp; -s_1 s_2 &amp; \cdots &amp; -s_1 s_n \
 <td>Regression</td>
 <td>Regression with outliers</td>
 <td>Robust to outliers, smooth</td>
-<td>Requires tuning of threshold $\delta$</td>
+<td>Requires tuning of threshold <span class="arithmatex">\(\delta\)</span></td>
 <td>❌</td>
 </tr>
 <tr>
@@ -978,34 +1000,54 @@ s_1 (1 - s_1) &amp; -s_1 s_2 &amp; \cdots &amp; -s_1 s_n \
 </table>
 <p><strong>i.    Mean Squared Error (MSE) Loss</strong></p>
 <p>Formula:</p>
-<p>$\text{MSE} = \frac{1}{2n} \sum_{i=1}^{n} (y_i - \hat{y}_i)^2$</p>
-<p>The derivative of MSE with respect to each prediction  $\hat{y}_i$  is:</p>
-<p>$\frac{\partial \text{MSE}}{\partial \hat{y}_i} = -\frac{1}{n}(y_i - \hat{y}_i)$</p>
+<p><span class="arithmatex">\(\text{MSE} = \frac{1}{2n} \sum_{i=1}^{n} (y_i - \hat{y}_i)^2\)</span></p>
+<p>The derivative of MSE with respect to each prediction  <span class="arithmatex">\(\hat{y}_i\)</span>  is:</p>
+<p><span class="arithmatex">\(\frac{\partial \text{MSE}}{\partial \hat{y}_i} = -\frac{1}{n}(y_i - \hat{y}_i)\)</span></p>
 <p>Where:
--    $y_i  = True value$
--    $\hat{y}_i  = Predicted value$
--   $n  = Number of data points$</p>
+-    <span class="arithmatex">\(y_i  = True value\)</span>
+-    <span class="arithmatex">\(\hat{y}_i  = Predicted value\)</span>
+-   <span class="arithmatex">\(n  = Number of data points\)</span></p>
 <p>How it Works:</p>
 <ul>
 <li>MSE calculates the average of the squared differences between predicted and true values. It penalizes large errors more significantly due to the squaring of the difference.</li>
 </ul>
 <p><strong>ii.    Mean Absolute Error (MAE) Loss</strong></p>
 <p>Formula:</p>
-<p>$\text{MAE} = \frac{1}{n} \sum_{i=1}^{n} |y_i - \hat{y}_i|$</p>
+<p><span class="arithmatex">\(\text{MAE} = \frac{1}{n} \sum_{i=1}^{n} |y_i - \hat{y}_i|\)</span></p>
+<p>The derivative of MAE with respect to each prediction <span class="arithmatex">\(\hat{y}_i\)</span> is:</p>
+<div class="arithmatex">\[
+\frac{\partial \text{MAE}}{\partial \hat{y}_i} = 
+\begin{cases}
+-\frac{1}{n}, &amp; \text{if } \hat{y}_i &gt; y_i \\
+\frac{1}{n}, &amp; \text{if } \hat{y}_i &lt; y_i
+\end{cases}
+\]</div>
+<p>Where:
+-    <span class="arithmatex">\(y_i  = True value\)</span>
+-    <span class="arithmatex">\(\hat{y}_i  = Predicted value\)</span>
+-   <span class="arithmatex">\(n  = Number of data points\)</span></p>
+<p>Handling Non-Differentiability at <span class="arithmatex">\(y_i = \hat{y}_i\)</span>:</p>
+<ul>
+<li>At <span class="arithmatex">\(y_i = \hat{y}_i\)</span>, the derivative is undefined because the slope of the absolute value changes abruptly. In practice:<ul>
+<li>For optimization algorithms, $0# or small gradient value is often used.</li>
+<li>Some frameworks introduce smooth approximations to <span class="arithmatex">\(|x|\)</span> (e.g, Huber loss) to avoid the issue of non-differentiability.</li>
+</ul>
+</li>
+</ul>
 <p>How it Works:</p>
 <ul>
 <li>MAE computes the average of the absolute differences between predicted and true values. Unlike MSE, it does not square the differences, which makes it less sensitive to large errors.</li>
 </ul>
 <p><strong>iii.    Cross-Entropy Loss</strong></p>
 <p>Formula (for Binary Classification):</p>
-<p>$\text{Binary Cross-Entropy} = - \frac{1}{n} \sum_{i=1}^{n} [y_i \log(\hat{y}_i) + (1 - y_i) \log(1 - \hat{y}_i)]$</p>
+<p><span class="arithmatex">\(\text{Binary Cross-Entropy} = - \frac{1}{n} \sum_{i=1}^{n} [y_i \log(\hat{y}_i) + (1 - y_i) \log(1 - \hat{y}_i)]\)</span></p>
 <p>For Multi-Class Classification:</p>
-<p>$\text{Categorical Cross-Entropy} = - \sum_{i=1}^{n} \sum_{c=1}^{C} y_{ic} \log(\hat{y}_{ic})$</p>
+<p><span class="arithmatex">\(\text{Categorical Cross-Entropy} = - \sum_{i=1}^{n} \sum_{c=1}^{C} y_{ic} \log(\hat{y}_{ic})\)</span></p>
 <p>Where:
--    $y_i  = True probability distribution$
--    $\hat{y}<em>i  = Predicted probability distribution$
--    $C  = Number of classes$
--    $y</em>{ic}  = 1 if the instance belongs to class  c , else 0$
+-    <span class="arithmatex">\(y_i  = True probability distribution\)</span>
+-    <span class="arithmatex">\(\hat{y}_i  = Predicted probability distribution\)</span>
+-    <span class="arithmatex">\(C  = Number of classes\)</span>
+-    <span class="arithmatex">\(y_{ic}  = 1 if the instance belongs to class  c , else 0\)</span>
 -    $\hat{y}_{ic}  = Predicted probability for class  c $</p>
 <p>How it Works:</p>
 <ul>
@@ -1013,37 +1055,37 @@ s_1 (1 - s_1) &amp; -s_1 s_2 &amp; \cdots &amp; -s_1 s_n \
 </ul>
 <p><strong>iv.    Hinge Loss (SVM Loss)</strong></p>
 <p><strong>Formula:</strong></p>
-<p>$\text{Hinge Loss} = \sum_{i=1}^{n} \max(0, 1 - y_i \hat{y}_i)$</p>
+<p><span class="arithmatex">\(\text{Hinge Loss} = \sum_{i=1}^{n} \max(0, 1 - y_i \hat{y}_i)\)</span></p>
 <p><strong>Where:</strong>
--    $y_i  = True label (+1 or -1)$
--    $\hat{y}_i  = Predicted score (not probability)$</p>
+-    <span class="arithmatex">\(y_i  = True label (+1 or -1)\)</span>
+-    <span class="arithmatex">\(\hat{y}_i  = Predicted score (not probability)\)</span></p>
 <p><strong>How it Works:</strong></p>
 <ul>
 <li>Hinge loss is used in Support Vector Machines (SVM) and other classification tasks. It penalizes predictions that are on the wrong side of the decision boundary and doesn’t penalize correctly classified points as long as they are on the correct side of the margin.</li>
 </ul>
 <p><strong>v.    Huber Loss</strong></p>
 <p><strong>Formula:</strong></p>
-<p>$$\text{Huber}(\delta) =
+<div class="arithmatex">\[\text{Huber}(\delta) =
 \begin{cases}
-\frac{1}{2}(y_i - \hat{y}_i)^2, &amp; \text{for } |y_i - \hat{y}_i| \leq \delta \
+\frac{1}{2}(y_i - \hat{y}_i)^2, &amp; \text{for } |y_i - \hat{y}_i| \leq \delta \\
 \delta |y_i - \hat{y}_i| - \frac{1}{2} \delta^2, &amp; \text{otherwise}
-\end{cases}$$</p>
+\end{cases}\]</div>
 <p><strong>Where:</strong>
--    $\delta$  is a threshold that determines the transition from quadratic to linear loss.</p>
+-    <span class="arithmatex">\(\delta\)</span>  is a threshold that determines the transition from quadratic to linear loss.</p>
 <p><strong>How it Works:</strong></p>
 <ul>
 <li>Huber loss combines both MSE and MAE. It behaves like MSE for small errors (i.e., when the absolute error is less than  \delta ) and like MAE for large errors. This makes it less sensitive to outliers compared to MSE while still being differentiable.</li>
 </ul>
 <p><strong>vi.    Kullback-Leibler Divergence (KL Divergence)</strong></p>
 <p><strong>Formula:</strong></p>
-<p>$\text{KL Divergence} = \sum_{i=1}^{n} p_i \log\left(\frac{p_i}{q_i}\right)$</p>
+<p><span class="arithmatex">\(\text{KL Divergence} = \sum_{i=1}^{n} p_i \log\left(\frac{p_i}{q_i}\right)\)</span></p>
 <p><strong>Where:</strong>
--    $p_i  = True distribution (e.g., true labels)$
--    $q_i  = Predicted distribution$</p>
+-    <span class="arithmatex">\(p_i  = True distribution (e.g., true labels)\)</span>
+-    <span class="arithmatex">\(q_i  = Predicted distribution\)</span></p>
 <p><strong>How it Works:</strong></p>
 <ul>
 <li>
-<p>$KL$ divergence measures the difference between two probability distributions. It is asymmetric, meaning  $\text{KL}(p \parallel q) \neq \text{KL}(q \parallel p)$ .</p>
+<p><span class="arithmatex">\(KL\)</span> divergence measures the difference between two probability distributions. It is asymmetric, meaning  <span class="arithmatex">\(\text{KL}(p \parallel q) \neq \text{KL}(q \parallel p)\)</span> .</p>
 </li>
 <li>
 <p>Optimization Algorithms</p>
@@ -1252,6 +1294,12 @@ s_1 (1 - s_1) &amp; -s_1 s_2 &amp; \cdots &amp; -s_1 s_n \
     
     
       <script src="../assets/javascripts/bundle.83f73b43.min.js"></script>
+      
+        <script src="../assets/mathjax-config.js"></script>
+      
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
       
     
   </body>

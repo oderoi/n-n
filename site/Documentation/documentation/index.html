@@ -12,6 +12,8 @@
         <link rel="prev" href="../../Progress_and_Roadmap/">
       
       
+        <link rel="next" href="../quick_start/">
+      
       
       <link rel="icon" href="../../assets/16.svg">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.47">
@@ -41,6 +43,8 @@
       
     
     
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex.css">
+    
     <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -60,7 +64,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#nan-usage" class="md-skip">
+        <a href="#progress-and-roadmap-home-page" class="md-skip">
           Skip to content
         </a>
       
@@ -233,8 +237,6 @@
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
-        
-      
       
         <label class="md-nav__link md-nav__link--active" for="__toc">
           
@@ -263,8 +265,6 @@
   
   
   
-    
-  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
@@ -273,11 +273,50 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#progress-and-roadmap-home-page" class="md-nav__link">
+    <span class="md-ellipsis">
+      Progress and Roadmap | Home Page
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#nan-usage" class="md-nav__link">
+    <span class="md-ellipsis">
+      nan Usage
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="nan Usage">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
   <a href="#nan-stack" class="md-nav__link">
     <span class="md-ellipsis">
       nan Stack
     </span>
   </a>
+  
+    <nav class="md-nav" aria-label="nan Stack">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#quick-start" class="md-nav__link">
+    <span class="md-ellipsis">
+      Quick Start
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -285,6 +324,26 @@
   
 </nav>
       
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../quick_start/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Quick Start
+  </span>
+  
+
+      </a>
     </li>
   
 
@@ -306,8 +365,6 @@
   
   
   
-    
-  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
@@ -316,11 +373,50 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#progress-and-roadmap-home-page" class="md-nav__link">
+    <span class="md-ellipsis">
+      Progress and Roadmap | Home Page
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#nan-usage" class="md-nav__link">
+    <span class="md-ellipsis">
+      nan Usage
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="nan Usage">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
   <a href="#nan-stack" class="md-nav__link">
     <span class="md-ellipsis">
       nan Stack
     </span>
   </a>
+  
+    <nav class="md-nav" aria-label="nan Stack">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#quick-start" class="md-nav__link">
+    <span class="md-ellipsis">
+      Quick Start
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -339,23 +435,20 @@
                   
 
 
+<!-- <h1 align='center'><b>nano</b></h1> -->
+
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: light)" srcset="/imgs/nan/16.svg">
-  <img alt="tiny corp logo" src="/imgs/nan/nan.svg" width="50%" height="50%">
+  <source media="(prefers-color-scheme: light)" srcset="../assets/nan.svg">
+  <img alt="nan corp logo" src="../assets/16.svg" width="100%" height="100%">
 </picture>
-
-nano: Something between [PyTorch](https://github.com/pytorch/pytorch) , [karpathy/micrograd](https://github.com/karpathy/micrograd) and [XLA](https://openxla.org/xla). Maintained by [nano corp](https://github.com/oderoi/nanoTorch/tree/main).
-
-<h3>
-
-[Home Page](../README.md) | [Progress and Roadmap](../Progress_and_Roadmap.md)
-
-</h3>
 
 </div>
 
+<p><strong>nan</strong>: Something between <a href="https://tinygrad.org/">tinygrad</a>, <a href="https://github.com/pytorch/pytorch">PyTorch</a>, <a href="https://github.com/karpathy/micrograd">karpathy/micrograd</a>, <a href="https://gitlab.epfl.ch/hugon/pytorch/-/tree/master/aten/src">Aten</a> and <a href="https://openxla.org/xla">XLA</a>. Maintained by <a href="https://github.com/oderoi/nanoTorch/tree/main">nano corp</a>.</p>
+<h3 id="progress-and-roadmap-home-page"><a href="../../Progress_and_Roadmap/"><strong>Progress and Roadmap</strong></a> | <a href="../../"><strong>Home Page</strong></a></h3>
+<p><a href="https://github.com/oderoi/nanoTorch/stargazers"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/oderoi/nanoTorch" /></a></p>
 <hr />
 <h1 align='center'><b>nan Documentation</b></h1>
 
@@ -416,11 +509,7 @@ nano: Something between [PyTorch](https://github.com/pytorch/pytorch) , [karpath
 <li><strong>nan</strong> stack combines Kernel Layer and Assembly/Hardware Layer to make it more simple to improve, read and improve for anyone interested.</li>
 <li><strong>nan</strong> Assembly/Hardware Layer only supports <strong>CPU</strong> for now.</li>
 </ul>
-<h3 align="center">
-
-[Quick Start](./quick_start.md)
-
-</h3>
+<h3 id="quick-start"><a href="../quick_start/"><strong>Quick Start</strong></a></h3>
 
 
 
@@ -471,6 +560,12 @@ nano: Something between [PyTorch](https://github.com/pytorch/pytorch) , [karpath
     
     
       <script src="../../assets/javascripts/bundle.83f73b43.min.js"></script>
+      
+        <script src="../../assets/mathjax-config.js"></script>
+      
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
       
     
   </body>

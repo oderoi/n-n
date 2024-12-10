@@ -6,21 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-      <!-- For GitHub static sites (like GitHub Pages), rendering LaTeX equations requires a bit of configuration. Here are several methods to enable LaTeX equation rendering: -->
-       <!-- MathJax Method (Recommended):
-            Add the following script to your HTML layout or in the <head> section of your pages: -->
       
-            <script type="text/javascript" id="MathJax-script" async
-              src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
-            </script>
-            
-            <script type="text/x-mathjax-config">
-            MathJax = {
-              tex: {
-                inlineMath: [['$', '$'], ['\\(', '\\)']]
-              }
-            };
-            </script>
       
       
       
@@ -54,6 +40,8 @@
         <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
       
     
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex.css">
     
     <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
@@ -341,6 +329,26 @@
   
 
     
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Documentation/quick_start/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Quick Start
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
   </ul>
 </nav>
                   </div>
@@ -443,7 +451,7 @@
 </div>
 
 <p><strong>nan</strong>: Something between <a href="https://tinygrad.org/">tinygrad</a>, <a href="https://github.com/pytorch/pytorch">PyTorch</a>, <a href="https://github.com/karpathy/micrograd">karpathy/micrograd</a>, <a href="https://gitlab.epfl.ch/hugon/pytorch/-/tree/master/aten/src">Aten</a> and <a href="https://openxla.org/xla">XLA</a>. Maintained by <a href="https://github.com/oderoi/nanoTorch/tree/main">nano corp</a>.</p>
-<h3 id="progress-and-roadmap-documentation"><a href="Progress_and_Roadmap/"><strong>Progress and Roadmap</strong></a> | <a href="/docs/Documentation/documentation.md"><strong>Documentation</strong></a></h3>
+<h3 id="progress-and-roadmap-documentation"><a href="Progress_and_Roadmap/"><strong>Progress and Roadmap</strong></a> | <a href="Documentation/documentation/"><strong>Documentation</strong></a></h3>
 <p><a href="https://github.com/oderoi/nanoTorch/stargazers"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/oderoi/nanoTorch" /></a></p>
 <!-- [![Fork Repo](https://img.shields.io/greasyfork/l/oderoi/nanoTorch)](https://github.com/oderoi/nanoTorch/fork) -->
 
@@ -532,6 +540,12 @@ Nano is a lightweight, minimalistic high-performance numerical computing library
     
     
       <script src="assets/javascripts/bundle.83f73b43.min.js"></script>
+      
+        <script src="assets/mathjax-config.js"></script>
+      
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
       
     
   </body>
